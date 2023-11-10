@@ -17,7 +17,7 @@ def main():
   else:
     print("GOOGLE_API_KEY is set")  
   
-  chat = ChatGooglePalm(temperature=0.5, model_name ="models/chat-bison-001") 
+  chat = ChatGooglePalm(temperature=0.5, model_name ="models/chat-bison-001")
   messages = [
     SystemMessage(content="You are a helpful AI assistant."),
   ] 
